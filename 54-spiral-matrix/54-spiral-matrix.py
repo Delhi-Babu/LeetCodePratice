@@ -1,4 +1,5 @@
 class Solution:
+    # not a best solution see neetcode
     def helper(self,matrix,i,j,res):
         if i < 0 or i >= len(matrix) or j < 0 or j>=len(matrix[0]) or matrix[i][j] == '#':  return
 
