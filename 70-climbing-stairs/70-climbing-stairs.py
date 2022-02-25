@@ -10,7 +10,7 @@ class Solution:
                 return 0
             else:
                 count += helper(target,n+1,count) + helper(target,n+2,count)
-                memo[n]= count
+                memo[n] = count
                 return count
             return 0
         return helper(n,0,0)
